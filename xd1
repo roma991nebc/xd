@@ -1,0 +1,11 @@
+import random
+
+
+
+dop = int(input("kakoy dlini porol vi hotite?"))
+porol = ""
+
+for i in range(dop):
+    skibidi =  "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+    porol += random.choice(skibidi)
+print(porol)
